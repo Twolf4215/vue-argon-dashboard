@@ -7,6 +7,8 @@ import RTL from "../views/Rtl.vue";
 import Profile from "../views/Profile.vue";
 import Signup from "../views/Signup.vue";
 import Signin from "../views/Signin.vue";
+import Put from "../views/Edit.vue";
+import Del from "../views/Delete.vue";
 
 const routes = [
   {
@@ -53,6 +55,16 @@ const routes = [
     path: "/signup",
     name: "Signup",
     component: Signup,
+  },
+  {
+    path: "/put",
+    name: "put",
+    component: Put,
+  },
+  {
+    path: "/delete",
+    name: "delete",
+    component: Del,
   },
   
 ];
