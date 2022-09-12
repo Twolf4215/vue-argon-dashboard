@@ -1,7 +1,7 @@
 <template>
   <div class="card mx-4" id="top">
     <div class="card-header pb-0">
-      <h2>TAMBAH USER</h2>
+      <h2>TAMBAH USER</h2> 
     </div>
     <div class="card-body px-3 pt-0 pb-2">
       <div class="mb-3">
